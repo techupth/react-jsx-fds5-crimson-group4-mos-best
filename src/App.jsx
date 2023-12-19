@@ -19,10 +19,10 @@ function IntroSection() {
     link: "article-link",
   };
   return (
-    <div className = "article">
-      <h3 className = "article-title">TechUp Thailand</h3>
-      <p className = "article-body" >เตรียมพบกับหลักสูตรปั้นคุณเป็น Software Developer ภายใน 4 เดือน</p>
-      <a className = "article-link" href="https://www.techupth.com/" target="blank">
+    <div className = {articleStyles.container}>
+      <h3 className = {articleStyles.title}>TechUp Thailand</h3>
+      <p className = {articleStyles.body} >เตรียมพบกับหลักสูตรปั้นคุณเป็น Software Developer ภายใน 4 เดือน</p>
+      <a className = {articleStyles.link} href="https://www.techupth.com/" target="blank">
         techupth.com
       </a>
       {  <div className="bootcamp-start-time">วันเวลาเริ่มหลักสูตร คือ {getCurrentDateTime()} </div>
